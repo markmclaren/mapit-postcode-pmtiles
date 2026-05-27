@@ -1,15 +1,11 @@
 # Mapit Postcode PMTiles
 
-A premium MapLibre GL JS client application designed to visualize and inspect local postcode boundary datasets stored in the PMTiles format. It utilizes the OpenFreeMap Liberty basemap.
-
-By default, the PMTiles sources are loaded from Hugging Face using the prefix:
-
-`https://huggingface.co/datasets/markmclaren/mapit-postcode-pmtiles/resolve/main/`
+A MapLibre GL JS client application designed to visualize and inspect local postcode boundary datasets stored in the PMTiles format. It utilizes the OpenFreeMap Liberty basemap.
 
 # Inspiration
 
 Mark Longair's [Open Data GB postcode unit boundaries](https://longair.net/blog/2021/08/23/open-data-gb-postcode-unit-boundaries/).  
-[https://github.com/mhl/postcodes-mapit](https://github.com/mhl/postcodes-mapit)
+https://github.com/mhl/postcodes-mapit
 
 # Download
 
@@ -82,9 +78,9 @@ If you already have `gb-postcodes-v5/` and do not want clipped output, skip `cli
 
 # PMTiles location
 
-The PMTiles produced are available as a dataset at:
+The PMTiles produced are available as a HuggingFace dataset at:
 
-(https://huggingface.co/datasets/markmclaren/mapit-postcode-pmtiles)[https://huggingface.co/datasets/markmclaren/mapit-postcode-pmtiles]
+https://huggingface.co/datasets/markmclaren/mapit-postcode-pmtiles
 
 # Licensing
 

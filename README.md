@@ -80,6 +80,12 @@ If you already have `gb-postcodes-v5/` and do not want clipped output, skip `cli
 - **Clicked Feature Inspector**: Click on any postcode region to query and view its attributes in a clean key-value table.
 - **PMTiles Header Metadata**: Parses and displays internal PMTiles metadata (bounding box, zoom level ranges, format, etc.) using range requests.
 
+# PMTiles location
+
+The PMTiles produced are available as a dataset at:
+
+(https://huggingface.co/datasets/markmclaren/mapit-postcode-pmtiles)[https://huggingface.co/datasets/markmclaren/mapit-postcode-pmtiles]
+
 # Licensing
 
 You may use this data under the Open Government License v3.0, and must include the following copyright notices:

@@ -445,8 +445,11 @@ function ensureZoomPanel() {
 }
 
 // Fetch and populate metadata for PMTiles using pmtiles JS Client
+const DEFAULT_PMtiles_BASE_URL = 'https://huggingface.co/datasets/markmclaren/mapit-postcode-pmtiles/resolve/main/';
+
 function getBaseUrl() {
-  return document.getElementById('base-url-input')?.value.trim() || './';
+  const inputValue = document.getElementById('base-url-input')?.value.trim();
+  return inputValue ? inputValue.replace(/\/?$/, '/') : DEFAULT_PMtiles_BASE_URL;
 }
 
 async function loadFileMetadata(baseUrl) {

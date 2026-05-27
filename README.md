@@ -2,6 +2,16 @@
 
 A premium MapLibre GL JS client application designed to visualize and inspect local postcode boundary datasets stored in the PMTiles format. It utilizes the OpenFreeMap Liberty basemap.
 
+# Inspiration
+
+Mark Longair's [Open Data GB postcode unit boundaries](https://longair.net/blog/2021/08/23/open-data-gb-postcode-unit-boundaries/).  
+[https://github.com/mhl/postcodes-mapit](https://github.com/mhl/postcodes-mapit)
+
+# Download
+
+PMTiles derived from this file of GeoJSON:
+
+[https://postcodes-mapit-static.s3.eu-west-2.amazonaws.com/data/gb-postcodes-v5.tar.bz2](https://postcodes-mapit-static.s3.eu-west-2.amazonaws.com/data/gb-postcodes-v5.tar.bz2)
 
 ## Running Locally
 
@@ -70,6 +80,6 @@ If you already have `gb-postcodes-v5/` and do not want clipped output, skip `cli
 
 You may use this data under the Open Government License v3.0, and must include the following copyright notices:
 
-Contains OS data © Crown copyright and database right 2020
-Contains Royal Mail data © Royal Mail copyright and database right 2020
-Source: Office for National Statistics licensed under the Open Government Licence v.3.0
+Contains OS data © Crown copyright and database right 2020. 
+Contains Royal Mail data © Royal Mail copyright and database right 2020. 
+Source: Office for National Statistics licensed under the Open Government Licence v.3.0. 

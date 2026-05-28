@@ -8,6 +8,8 @@ Mark Longair's [Open Data GB postcode unit boundaries](https://longair.net/blog/
 https://github.com/mhl/postcodes-mapit.  
 https://github.com/mysociety/mapit   
 
+This project was built with the hope of one day discussing it with Mark Longair, whose open data postcode work was its direct inspiration.  Sadly, Mark passed away in January 2026 before that conversation could happen.  His legacy in open source and civic technology is evident in every project that builds on what he created.
+
 # Download
 
 PMTiles derived from this file of GeoJSON:

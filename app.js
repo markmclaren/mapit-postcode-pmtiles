@@ -511,7 +511,7 @@ function initMap() {
 
   const mapOptions = {
     container: 'map-container',
-    style: 'https://tiles.openfreemap.org/styles/liberty',
+    style: 'https://tiles.openfreemap.org/styles/bright',
     center: [-2.5, 54.5], // Centered on Great Britain
     zoom: 5.5,
     pitch: 0,
@@ -531,7 +531,7 @@ function initMap() {
 
   // Set up click handlers and loading logic on load
   mapInstance.on('load', () => {
-    showToast('Base Map Loaded (OpenFreeMap Liberty)', 'success');
+    showToast('Base Map Loaded (OpenFreeMap Bright)', 'success');
     updateZoomDisplay();
     loadPMTilesLayers();
   });

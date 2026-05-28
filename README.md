@@ -1,6 +1,6 @@
 # Mapit Postcode PMTiles
 
-A MapLibre GL JS client application designed to visualize and inspect local UK postcode boundary datasets stored in the PMTiles format. It utilizes the OpenFreeMap Liberty basemap.
+A MapLibre GL JS client application designed to visualize and inspect local UK postcode boundary datasets stored in the PMTiles format. It utilizes the OpenFreeMap Bright basemap.
 
 # Inspiration
 
@@ -73,7 +73,7 @@ If you already have `gb-postcodes-v5/` and do not want clipped output, skip `cli
 ---
 
 ## Features
-- **OpenFreeMap Integration**: Uses OpenFreeMap's zero-key, high-speed Liberty style vector basemap.
+- **OpenFreeMap Integration**: Uses OpenFreeMap's zero-key, high-speed Bright style vector basemap.
 - **Layer Visibility Toggles**: Enable/disable each of the three dataset layers dynamically.
 - **Dynamic Styling Controls**: Customize fill color, fill opacity, outline color, and outline thickness in real-time.
 - **Clicked Feature Inspector**: Click on any postcode region to query and view its attributes in a clean key-value table.

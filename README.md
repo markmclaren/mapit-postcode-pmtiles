@@ -1,11 +1,12 @@
 # Mapit Postcode PMTiles
 
-A MapLibre GL JS client application designed to visualize and inspect local postcode boundary datasets stored in the PMTiles format. It utilizes the OpenFreeMap Liberty basemap.
+A MapLibre GL JS client application designed to visualize and inspect local UK postcode boundary datasets stored in the PMTiles format. It utilizes the OpenFreeMap Liberty basemap.
 
 # Inspiration
 
-Mark Longair's [Open Data GB postcode unit boundaries](https://longair.net/blog/2021/08/23/open-data-gb-postcode-unit-boundaries/).  
-https://github.com/mhl/postcodes-mapit
+Mark Longair's [Open Data GB postcode unit boundaries](https://longair.net/blog/2021/08/23/open-data-gb-postcode-unit-boundaries/).   
+https://github.com/mhl/postcodes-mapit.  
+https://github.com/mysociety/mapit   
 
 # Download
 
